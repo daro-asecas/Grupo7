@@ -1,0 +1,9 @@
+#root {
+  margin-inline: auto;
+  width: 1000px;
+}
+
+header {
+  height: 4rem;
+  width: 100%;
+}

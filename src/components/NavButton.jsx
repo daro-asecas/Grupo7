@@ -1,11 +1,9 @@
-import { useState } from "react"
-
 export function NavButton({ name, isCurrent, makeCurrent }) {
   return (
     <>
-        <button className={`navbutton ${isCurrent?' current':''}`} onClick={()=> makeCurrent(name)}>
+        <a href={`/${name}`} className={`navbutton ${isCurrent?' current':''}`} onClick={()=> makeCurrent(name)}>
           {name}
-        </button>
+        </a>
     </>
   );
 }

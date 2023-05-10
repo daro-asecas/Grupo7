@@ -4,7 +4,7 @@
 export function Footer() {
     return (
       <footer>
-        Footer
+        Here comes the Footer
       </footer>
     );
   }

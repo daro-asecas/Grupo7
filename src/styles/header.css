@@ -1,10 +1,6 @@
-
-header, header * {
-  border: solid black 1px;
-}
-
 header {
-  height: 100%;
+  background-color: hsl(198, 100%, 37%);
+  border-bottom: solid 0.1rem hsla(198, 100%, 37%, 25%);
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -25,15 +21,37 @@ header {
 }
 
 .navbutton {
-  background: white;
+  background-color: hsl(198, 100%, 37%);
+  color: whitesmoke;
   border: 0px;
   border-radius: 0.2rem;
-  height: 3rem;
-  padding: 0.5rem;
+  padding-inline: 0.5rem;
+  padding-bottom: 0.1rem;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.navbutton:hover {
+  background-color: hsl(198, 100%, 37%);
+  color: white;
+  /* scale: 1.05; */
 }
 
 .navbutton.current {
-  background: linear-gradient(white 66%,rgb(247, 242, 217), white 88%)
+  color: rgb(255, 230, 161);
+}
+
+
+footer {
+  background-color: hsl(198, 95%, 60%);
+  border-top: solid 0.1rem hsla(198, 95%, 60%, 25%);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }

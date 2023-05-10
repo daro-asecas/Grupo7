@@ -1,4 +1,4 @@
-// import { NavBar } from "./components/NavBar"
+// import { home } from "./components/home"
 
 
 export function Body() {

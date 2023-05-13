@@ -1,7 +1,7 @@
-export function NavButton({ name, isCurrent, makeCurrent }) {
+export function NavButton({ url, name, isCurrent, makeCurrent }) {
   return (
     <>
-        <a href={`/${name}`} className={`navbutton ${isCurrent?' current':''}`} onClick={()=> makeCurrent(name)}>
+        <a href={`/${url}`} className={`navbutton ${isCurrent?' current':''}`} onClick={()=> makeCurrent(name)}>
           {name}
         </a>
     </>

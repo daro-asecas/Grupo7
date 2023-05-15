@@ -1,6 +1,6 @@
 import { useState } from "react"
-import { NavButton } from "./NavButton"
-import "../styles/header.css"
+import { NavButton } from "./Navbar/NavButton"
+import "../../styles/header.css"
 
 export function Navbar() {
 
@@ -20,7 +20,6 @@ export function Navbar() {
       return name
     })
   }
-
   
   return (
     <header>

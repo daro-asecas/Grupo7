@@ -1,6 +1,6 @@
-import { Navbar } from "./components/Navbar"
-import { Footer } from "./components/Footer"
 import { Route, Routes } from "react-router-dom"
+import { Navbar } from "./components/layout/Navbar"
+import { Footer } from "./components/layout/Footer"
 import { Home } from "./components/routes/Home"
 import { Nuevos } from "./components/routes/Nuevos"
 import { Usados } from "./components/routes/Usados"

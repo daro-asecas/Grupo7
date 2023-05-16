@@ -15,9 +15,7 @@ export const CardDelHome = (props) => {
 
 export function Home() {
     return (
-      <>
-      Home
-      
+      <>   
       <div className="card">
 
           <CardDelHome 

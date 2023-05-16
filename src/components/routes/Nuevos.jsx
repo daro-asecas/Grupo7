@@ -26,39 +26,39 @@ export function Nuevos() {
 
             <CardDe0kms 
                         marca="CHEVROLET" 
-                        img="/chevro.png"/>
+                        img="/nacionales/chevro.png"/>
 
             <CardDe0kms 
                         marca="CITROEN" 
-                        img="/citro.png"/>
+                        img="/nacionales/citro.png"/>
 
             <CardDe0kms 
                         marca="FIAT" 
-                        img="/fiat.png"/>
+                        img="/nacionales/fiat.png"/>
 
             <CardDe0kms 
                         marca="FORD" 
-                        img="/ford.png"/>
+                        img="/nacionales/ford.png"/>
 
             <CardDe0kms 
                         marca="NISSAN" 
-                        img="/nissan.png"/>
+                        img="/nacionales/nissan.png"/>
 
             <CardDe0kms 
                         marca="PEUGEOT" 
-                        img="/peug.png"/>
+                        img="/nacionales/peug.png"/>
 
             <CardDe0kms 
                         marca="RENAULT" 
-                        img="/ren.png"/>
+                        img="/nacionales/ren.png"/>
 
             <CardDe0kms 
                         marca="TOYOTA" 
-                        img="/toyo.png"/>
+                        img="/nacionales/toyo.png"/>
 
             <CardDe0kms 
                         marca="VOLKSWAGEN" 
-                        img="/volks.png"/>
+                        img="/nacionales/volks.png"/>
 
         </div>
         

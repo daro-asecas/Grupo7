@@ -5,7 +5,7 @@ export function CardPuntosDeVenta(props) {
     return (
       <> 
       <div className="cardHome">
-          <h3>{props.categoria}</h3>
+          <h3>{props.ubicacion}</h3>
           <img className="imgHome" src={props.img} />
             <p>
                 {props.direccion} <br />
@@ -29,6 +29,7 @@ export function Nosotros() {
 
             
             <CardPuntosDeVenta 
+                        ubicacion="CIUDAD AUTÓNOMA DE BUENOSA AIRES"
                         img="/ubicaciones/bsas.png"
                         direccion="1"
                         Wsp="11"
@@ -36,6 +37,7 @@ export function Nosotros() {
             />
             
             <CardPuntosDeVenta 
+                        ubicacion="CIUDAD DE CÓRDOBA"
                         img="/ubicaciones/cordoba.png"
                         direccion="2"
                         Wsp="11"
@@ -43,6 +45,7 @@ export function Nosotros() {
             />
             
             <CardPuntosDeVenta 
+                        ubicacion="CIUDAD DE MENDOZA"
                         img="/ubicaciones/mendoza.png"
                         direccion="3"
                         Wsp="11"
@@ -50,6 +53,7 @@ export function Nosotros() {
             />
 
             <CardPuntosDeVenta 
+                        ubicacion="ROSARIO"
                         img="/ubicaciones/rosario.png"
                         direccion="4"
                         Wsp="11"
@@ -57,6 +61,7 @@ export function Nosotros() {
             />
 
             <CardPuntosDeVenta 
+                        ubicacion="SAN MIGUEL DE TUCUMÁN"
                         img="/ubicaciones/tucuman.png"
                         direccion="5"
                         Wsp="11"
@@ -64,6 +69,7 @@ export function Nosotros() {
             />
 
             <CardPuntosDeVenta 
+                        ubicacion="USHUAIA"
                         img="/ubicaciones/ushuaia.png"
                         direccion="6"
                         Wsp="11"

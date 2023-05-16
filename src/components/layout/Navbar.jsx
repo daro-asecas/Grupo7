@@ -24,7 +24,7 @@ export function Navbar() {
   return (
     <header>
       <a href="/">
-        <img id= "logo" src={"/logo.png"} />
+        <img id= "logo" src={"/logo1.png"} />
       </a>
       <div id= "navbar">
         {buttons.map(button=>{

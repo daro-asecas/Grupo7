@@ -6,7 +6,7 @@ export function Footer() {
       <footer className="footer">
        
           <div className="contenedor">
-            <img className="logo" src={"/logo.png"} />
+            <img className="logo" src={"/logo1.png"} />
 
             <div>
                 <h3>Enlaces de interés</h3>
@@ -37,10 +37,10 @@ export function Footer() {
       </div>
       
       <div className="img">
-        <img className="iconos" src={"/ico2.png"} />
-        <img className="iconos" src={"/ico1.png"} />
-        <img className="iconos" src={"/ico3.png"} />
-        <img className="iconos" src={"/ico4.png"} />
+        <a className="iconos" href="#"><img src={"/ico1.png"} /></a>
+        <a className="iconos" href="#"><img src={"/ico2.png"} /></a>
+        <a className="iconos" href="#"><img src={"/ico3.png"} /></a>
+        <a className="iconos" href="#"><img src={"/ico4.png"} /></a>
       </div>
 
       <br />

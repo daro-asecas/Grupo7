@@ -21,8 +21,6 @@ export function CardVende(props) {
 export function Repuestos() {
     return (
       <>
-        Nuevos
-
         <div className="cardnuevos">
 
             <CardVende 

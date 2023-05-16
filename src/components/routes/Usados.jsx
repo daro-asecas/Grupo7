@@ -20,8 +20,6 @@ export function CardImportados(props) {
 export function Importados () {
     return (
       <>
-        Nuevos
-
         <div className="cardnuevos">
 
             <CardImportados 

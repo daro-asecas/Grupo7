@@ -23,7 +23,6 @@ export function CardPuntosDeVenta(props) {
 export function Nosotros() {
     return (
       <>
-        Nuevos
 
         <div className="cardnuevos">
 
@@ -76,8 +75,7 @@ export function Nosotros() {
                         mail="a@b.com"
             />
             
-            
-            
+
         </div>
         
 

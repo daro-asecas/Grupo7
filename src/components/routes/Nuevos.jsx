@@ -20,8 +20,6 @@ export const CardDe0kms = (props) => {
 export function Nuevos() {
     return (
       <>
-        Nuevos
-
         <div className="cardnuevos">
 
             <CardDe0kms 

@@ -5,12 +5,12 @@ import "../../styles/header.css"
 export function Navbar() {
 
   const buttons = [
-    {key: "nuevos", name:"0 km"},
-    {key: "usados", name:"usados"},
-    {key: "vende", name:"vende tu auto"},
-    {key: "servicios", name:"servicios"},
-    {key: "nosotros", name:"nosotros"},
-    {key: "contacto", name:"contacto"},
+    {key: "nuevos", name:"0 km Nacionales"},
+    {key: "usados", name:"0 km Importados"},
+    {key: "vende", name:"Repuestos"},
+    {key: "servicios", name:"Service Post-Venta"},
+    {key: "nosotros", name:"Puntos de Venta"},
+    {key: "contacto", name:"Contactanos"},
   ]
 
   const [currentButton, setCurrentButton] = useState("home")

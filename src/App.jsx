@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import { Navbar } from "./components/layout/Navbar"
 import { Home } from "./components/routes/Home"
 import { Nuevos } from "./components/routes/Nuevos"
-import { Usados } from "./components/routes/Usados"
+import { Importados } from "./components/routes/Usados"
 import { Vende } from "./components/routes/Vende"
 import { Servicios } from "./components/routes/Servicios"
 import { Nosotros } from "./components/routes/Nosotros"
@@ -17,7 +17,7 @@ export default function App() {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nuevos" element={<Nuevos />} />
-        <Route path="/usados" element={<Usados />} />
+        <Route path="/Usados" element={<Importados  />} />
         <Route path="/vende" element={<Vende />} />
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/nosotros" element={<Nosotros />} />

@@ -23,8 +23,6 @@ export function CardPuntosDeVenta(props) {
 export function Nosotros() {
     return (
       <>
-        Nuevos
-
         <div className="cardnuevos">
 
             

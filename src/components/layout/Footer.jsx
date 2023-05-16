@@ -37,10 +37,10 @@ export function Footer() {
       </div>
       
       <div className="img">
-        <a className="iconos" href="#"><img src={"/ico1.png"} /></a>
-        <a className="iconos" href="#"><img src={"/ico2.png"} /></a>
-        <a className="iconos" href="#"><img src={"/ico3.png"} /></a>
-        <a className="iconos" href="#"><img src={"/ico4.png"} /></a>
+        <a className="iconos" href="#"><img src={"/iconos/ico1.png"} /></a>
+        <a className="iconos" href="#"><img src={"/iconos/ico2.png"} /></a>
+        <a className="iconos" href="#"><img src={"/iconos/ico3.png"} /></a>
+        <a className="iconos" href="#"><img src={"/iconos/ico4.png"} /></a>
       </div>
 
       <br />

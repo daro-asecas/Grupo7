@@ -5,6 +5,7 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between; 
+  z-index: 1;
 }
 
 #logo {

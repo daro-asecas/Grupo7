@@ -24,7 +24,7 @@ export function Repuestos() {
         <div className="cardnuevos">
 
             <CardVende 
-                        categoria="ACCESOSIOS" 
+                        categoria="ACCESORIOS" 
                         img="/repuestos/accesorios.png"/>
 
             <CardVende 

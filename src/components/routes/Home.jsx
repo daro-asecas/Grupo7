@@ -16,6 +16,12 @@ export const CardDelHome = (props) => {
 export function Home() {
     return (
       <>   
+      <h1 className="titulo">Conseguí tu auto para vivir <br /> la acción sobre 4 ruedas</h1>
+
+      <video src={"video.mp4"} width="1366"  height="768" autoplay="true" muted="true" loop="true"></video>
+      
+      <img className="arrow" src={"arrow.png"} />
+      
       <div className="card">
 
           <CardDelHome 

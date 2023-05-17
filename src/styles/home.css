@@ -5,6 +5,7 @@ body{
 }
 
 .card{
+    font-family: 'Exo', sans-serif;
     display: grid;
     grid-template-columns: 45fr 45fr;
 }
@@ -21,7 +22,6 @@ body{
     justify-items: center;
     text-align: center;
     border: 1px solid  rgba(225, 225, 225, 0.651);
-    font-family: 'Exo', sans-serif;
     
     
 }

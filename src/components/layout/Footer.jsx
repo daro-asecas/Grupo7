@@ -6,7 +6,7 @@ export function Footer() {
       <footer className="footer">
        
           <div className="contenedor">
-            <img className="logo" src={"/logo1.png"} />
+            <img className="logo" src={"/logo.jpeg"} />
 
             <div>
                 <h3>Enlaces de interés</h3>

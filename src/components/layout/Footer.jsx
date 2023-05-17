@@ -40,7 +40,6 @@ export function Footer() {
         <a className="iconos" href="#"><img src={"/iconos/ico1.png"} /></a>
         <a className="iconos" href="#"><img src={"/iconos/ico2.png"} /></a>
         <a className="iconos" href="#"><img src={"/iconos/ico3.png"} /></a>
-        <a className="iconos" href="#"><img src={"/iconos/ico4.png"} /></a>
       </div>
 
       <br />

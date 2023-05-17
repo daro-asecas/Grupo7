@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from "react-router-dom"
 import { Navbar } from "./components/layout/Navbar"
 import { Home } from "./components/routes/Home"
@@ -9,7 +10,7 @@ import { Nosotros } from "./components/routes/Nosotros"
 import { Contacto } from "./components/routes/Contacto"
 import { Footer } from "./components/layout/Footer"
 import './styles/layout.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function App() {
   return (

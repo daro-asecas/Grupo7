@@ -26,7 +26,7 @@ export function Home() {
 
           <CardDelHome 
                   titulo="VEHÍCULOS IMPORTADOS 0KM" 
-                  descripcion="LAS MEJORES MARCAS Y MODELOS DEL MUNDO A SU ALCANCE. <br />
+                  descripcion="LAS MEJORES MARCAS Y MODELOS DEL MUNDO A SU ALCANCE.
                   UNIDADES ÚNICAS DIRECTAMENTE DE SU PAÍS DE ORÍGEN." 
                   img="/home/2.png"/>
 

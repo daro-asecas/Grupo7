@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;700&family=Ubuntu:ital@1&display=swap');
+
 body{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .card{
+    font-family: 'Exo', sans-serif;
     display: grid;
     grid-template-columns: 45fr 45fr;
 }
 
 .cardHome{
-    box-shadow:
+    /*box-shadow:
     inset 0 -1em 1em rgba(63, 62, 62, 0.059),
-          0.1em 0.1em 1em rgba(85, 84, 84, 0.159);
+          0.1em 0.1em 1em rgba(85, 84, 84, 0.159);*/
     border-radius: 14px;
     background-color: white;
     box-sizing: border-box;
@@ -18,9 +21,13 @@ body{
     display: grid;
     justify-items: center;
     text-align: center;
-    border: 1px solid  rgba(225, 225, 225, 0.651);
-    font-style: italic;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid  rgba(225, 225, 225, 0.651);    
+}
+
+.cardHome:hover{
+    box-shadow:
+    inset 0 -1em 1em rgba(63, 62, 62, 0.059),
+          0.1em 0.1em 1em rgba(85, 84, 84, 0.159);
 }
 
 .imgHome{

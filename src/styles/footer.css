@@ -1,4 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Ubuntu:ital@1&display=swap');
+
 footer {
+  margin-top: .5em;
+    font-family: 'Exo', sans-serif;
     width: 100%;
     background-color: hsl(198, 95%, 60%);
     border-top: solid 0.1rem hsla(198, 95%, 60%, 25%);
@@ -21,14 +26,20 @@ footer {
   align-items: center;
 }
 
-h3{
+/*h3{
   text-shadow: 1px 1px 2px black;
-}
+}*/
 
-a{
+.linksFooter{
   text-decoration: none;
   color: aliceblue;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.741);
+  /*text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.741);*/
+}
+
+.linksFooter:hover{
+  color: #FFD208;
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
 }
 
 hr{
@@ -59,9 +70,10 @@ hr{
 }
 
 .derechos{
-  font-style: italic;
+  /*font-style: italic;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: hsl(198, 71%, 42%);
+ */ background-color: hsl(198, 71%, 42%);
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.554);
 }
+

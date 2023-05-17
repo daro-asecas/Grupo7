@@ -29,11 +29,16 @@ footer {
   text-shadow: 1px 1px 2px black;
 }*/
 
-a{
+.linksFooter{
   text-decoration: none;
   color: aliceblue;
-  /*
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.741);*/
+  /*text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.741);*/
+}
+
+.linksFooter:hover{
+  color: #FFD208;
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
 }
 
 hr{
@@ -68,5 +73,6 @@ hr{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  */ background-color: hsl(198, 71%, 42%);
   text-align: center;
-  /*text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.554);*/
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.554);
 }
+

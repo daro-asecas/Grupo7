@@ -9,6 +9,7 @@ header {
 
 #logo {
   height: 100%;
+  margin-left: 1em ;
 }
 
 #navbar {
@@ -17,7 +18,7 @@ header {
   display: flex;
   align-items: center;
   align-content: center;
-  gap: 0.5rem
+  gap: 1rem;
 }
 
 .navbutton {

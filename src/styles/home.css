@@ -16,10 +16,24 @@ body{
     text-align: justify;
 }
 
-.arrow{
+@keyframes movimiento {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+}
+  
+.arrow {
     width: 5%;
     margin-left: 50%;
     margin-top: 5%;
+    animation-name: movimiento;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;	
+    font-size: 100px;
 }
 
 .card{

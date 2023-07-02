@@ -7,10 +7,8 @@ import Row from 'react-bootstrap/Row';
 
 export function Servicios() {
     return (
-      <div>
-				
+      <div>																		
                                                                                       
-
       <div className='form'>
       <Form>
        

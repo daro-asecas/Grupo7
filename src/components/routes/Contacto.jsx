@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import "../../styles/form.css"
 
 
 export function Contacto() {
@@ -18,7 +19,11 @@ export function Contacto() {
         
      <div className='form'>
       <Form>
-        <br /><br /><br /><br /><br />
+
+      
+
+
+        <br />
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Correo electrónico</Form.Label>
         <Form.Control type="email" placeholder="Email" />

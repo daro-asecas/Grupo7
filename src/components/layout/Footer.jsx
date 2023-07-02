@@ -37,9 +37,9 @@ export function Footer() {
       </div>
       
       <div className="img">
-        <a className="iconos" href="#"><img src={"/iconos/ico1.png"} /></a>
-        <a className="iconos" href="#"><img src={"/iconos/ico2.png"} /></a>
-        <a className="iconos" href="#"><img src={"/iconos/ico3.png"} /></a>
+        <a className="iconos" href="#"><img src={"/iconos/face.png"} /></a>
+        <a className="iconos" href="#"><img src={"/iconos/insta.png"} /></a>
+        <a className="iconos" href="#"><img src={"/iconos/mail.png"} /></a>
       </div>
 
       <br />

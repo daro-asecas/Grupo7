@@ -1,0 +1,45 @@
+body{
+    background-color: aliceblue;
+    background-image: url("/public/home/fondo.jpg");
+    line-height:normal;
+    box-sizing: border-box;
+}
+
+.cardnuevos{
+    margin-top: 1%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 33fr 33fr 33fr;
+}
+
+.cardHome{
+    border-radius: 14px;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0.5em;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    border: 1px solid  rgba(225, 225, 225, 0.651);
+}
+
+.imgHome{
+    width: 50%;
+}
+
+.link{
+    text-decoration: none;
+    font-family:sans-serif;
+    border: solid 1px rgb(74, 188, 233);;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: rgba(74, 188, 233, 0.801);
+}
+
+.link:hover{
+    color:rgb(74, 188, 233);
+    background-color: rgb(255, 255, 255);
+}

@@ -8,6 +8,8 @@ import { Repuestos } from "./components/routes/Vende"
 import { Servicios } from "./components/routes/Servicios"
 import { Nosotros } from "./components/routes/Nosotros"
 import { Contacto } from "./components/routes/Contacto"
+import { FormRepuestos } from "./components/routes/FormRepuestos"
+import { Financiacion } from "./components/routes/Financiacion"
 import { Footer } from "./components/layout/Footer"
 import './styles/layout.css';
 
@@ -24,6 +26,8 @@ export default function App() {
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/FormRepuestos" element={<FormRepuestos />} />
+        <Route path="/Financiacion" element={<Financiacion />} />
       </Routes>
       <Footer/>
     </>

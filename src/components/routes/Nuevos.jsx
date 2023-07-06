@@ -1,4 +1,6 @@
+//import Swal from "sweetalert2";
 import "../../styles/nuevos.css"
+import { Link } from "react-router-dom";  
 
 export const CardDe0kms = (props) => {
     return (
@@ -7,9 +9,9 @@ export const CardDe0kms = (props) => {
           <h3>{props.marca}</h3>
           <img className="imgHome" src={props.img} />
           <br />
-              <button>Consultanos</button>
-            <br />
-      </div>
+          <Link className="link" to="/Financiacion">Financiacion</Link>
+          <br />
+      </div> 
       </>
     )
   }
@@ -56,8 +58,7 @@ export function Nuevos() {
 
             <CardDe0kms 
                         marca="VOLKSWAGEN" 
-                        img="/nacionales/volks.png"/>
-
+                        img="/nacionales/volks.png"/>      
         </div>
         
 

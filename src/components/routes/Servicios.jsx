@@ -3,19 +3,32 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import Swal from "sweetalert2";
+
+const Alerta = () => {
+  Swal.fire({
+  imageUrl: "res.jpg",
+  title: "Datos recibidos",
+  text: 'En breve recibirá una respuesta',
+  imageWidth: 270,
+  imageHeight: 290,
+  imageAlt: '',
+ })
+}
 
 
 export function Servicios() {
     return (
-      <div>																		
-                                                                                      
-      <div className='form'>
+      
+      <div>
+        <br />
+         <div className='form'>
       <Form>
        
       <Row className="mb-3" with >
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control type="email" placeholder="Email" />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
@@ -26,7 +39,7 @@ export function Servicios() {
 
       <Form.Group className="mb-3" controlId="formGridAddress1">
         <Form.Label>Auto y Modelo</Form.Label>
-        <Form.Control placeholder="Renaul Kangoo" />
+        <Form.Control placeholder="Renault Kangoo" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
@@ -61,9 +74,8 @@ export function Servicios() {
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
+      <Button onClick={Alerta} variant="primary" /*type="submit"*/>Enviar</Button>
+      <br />
       <br />
     
     </Form>

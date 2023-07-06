@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;700&family=Ubuntu:ital@1&display=swap');
 
 body{
-    background-color: rgb(255, 255, 255);
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+
 .titulo{
-    position:absolute;
     margin-left: 5%;
-    margin-top: 10%;
-    color: rgb(32, 28, 28);
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 12%;
+    color: white;
+    font-size: 300%;    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: justify;
 }
 
@@ -21,14 +20,14 @@ body{
       transform: translateY(0px);
     }
     100% {
-      transform: translateY(20px);
+      transform: translateY(25px);
     }
 }
   
 .arrow {
     width: 5%;
-    margin-left: 50%;
-    margin-top: 5%;
+    margin-left: 48%;
+    margin-top: 13%;
     animation-name: movimiento;
       animation-duration: 0.5s;
       animation-iteration-count: infinite;
@@ -36,27 +35,28 @@ body{
     font-size: 100px;
 }
 
-.card{
+.cards{
     margin-top: 5%;
-    font-family: 'Exo', sans-serif;
     display: grid;
     grid-template-columns: 45fr 45fr;
+    margin-bottom: 1%;
 }
 
 .cardHome{
-    opacity: 0.9;
+    padding: 2%;
+    opacity: 0.8;
     /*box-shadow:
     inset 0 -1em 1em rgba(63, 62, 62, 0.059),
     0.1em 0.1em 1em rgba(85, 84, 84, 0.159);*/
-    border-radius: 14px;
-    background-color: white;
+    border-radius: 25px;
     box-sizing: border-box;
     margin: 0.5em;
     display: grid;
     justify-self: center;
     text-align: center;  
     border: 1px solid  rgba(225, 225, 225, 0.651);   
-    width: 85%; 
+    width: 80%;
+    height: 95%; 
 }
 
 .cardHome:hover{
@@ -66,14 +66,29 @@ body{
 }
 
 .imgHome{
-    width: 50%;
+    width: 60%;
 }
 
-.video {
-    position: relative;
-    left: 4px;
-    right: 14px;
+video {
+    position: fixed;
+    left: -10;
     top: 0;
-    height:135%;
+    height:155%;
     z-index: -1;
-  }
+}
+
+.link{
+    background-color: hsl(198, 100%, 37%);
+    text-decoration: none;
+    font-family:sans-serif;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: aliceblue;
+}

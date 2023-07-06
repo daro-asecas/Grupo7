@@ -1,4 +1,5 @@
 import "../../styles/nuevos.css"
+import { Link } from "react-router-dom";  
 
 export function CardVende(props) {
 
@@ -8,16 +9,14 @@ export function CardVende(props) {
           <h3>{props.categoria}</h3>
           <img className="imgHome" src={props.img} />
           <br />
-              <button>Consultanos</button>
+          <Link className="link" to="/FormRepuestos">Buscar</Link>
             <br />
       </div>
       </>
     )
   }
+
   
-
-
-
 export function Repuestos() {
     return (
       <>

@@ -5,7 +5,7 @@ export function CardPuntosDeVenta(props) {
     return (
       <> 
       <div className="cardHome">
-          <h3>{props.ubicacion}</h3>
+          <h4>{props.ubicacion}</h4>
           <img className="imgHome" src={props.img} />
             <p>
                 {props.direccion} <br />
@@ -30,49 +30,49 @@ export function Nosotros() {
             <CardPuntosDeVenta 
                         ubicacion="CIUDAD AUTÓNOMA DE BUENOSA AIRES"
                         img="/ubicaciones/bsas.png"
-                        direccion="1"
-                        Wsp="11"
-                        mail="a@b.com"
+                        direccion="Av. Díaz Vélez, C1414 CABA"
+                        Wsp="(011) 22334455"
+                        mail="sucursalcaba@carseven.com"
             />
             
             <CardPuntosDeVenta 
                         ubicacion="CIUDAD DE CÓRDOBA"
                         img="/ubicaciones/cordoba.png"
-                        direccion="2"
-                        Wsp="11"
-                        mail="a@b.com"
+                        direccion="Deodoro Roca, Córdoba"
+                        Wsp="(351) 22334455"
+                        mail="sucursalcordoba@carseven.com"
             />
             
             <CardPuntosDeVenta 
                         ubicacion="CIUDAD DE MENDOZA"
                         img="/ubicaciones/mendoza.png"
-                        direccion="3"
-                        Wsp="11"
-                        mail="a@b.com"
+                        direccion="Av Emilio Civit 701, M5500 Mendoza"
+                        Wsp="(261) 22334455"
+                        mail="sucursalendoza@carseven.com"
             />
 
             <CardPuntosDeVenta 
                         ubicacion="ROSARIO"
                         img="/ubicaciones/rosario.png"
-                        direccion="4"
-                        Wsp="11"
-                        mail="a@b.com"
+                        direccion="Láinez 1-48, S2000"
+                        Wsp="(341) 22334455"
+                        mail="sucursalrosario@carseven.com"
             />
 
             <CardPuntosDeVenta 
                         ubicacion="SAN MIGUEL DE TUCUMÁN"
                         img="/ubicaciones/tucuman.png"
-                        direccion="5"
-                        Wsp="11"
-                        mail="a@b.com"
+                        direccion="Av. Soldati SN"
+                        Wsp="(381) 22334455"
+                        mail="sucursaltucuman@carseven.com"
             />
 
             <CardPuntosDeVenta 
                         ubicacion="USHUAIA"
                         img="/ubicaciones/ushuaia.png"
-                        direccion="6"
-                        Wsp="11"
-                        mail="a@b.com"
+                        direccion="5QVM+5P Ushuaia"
+                        Wsp="(290) 22334455"
+                        mail="sucursalushuaia@carseven.com"
             />
             
 

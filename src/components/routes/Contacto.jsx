@@ -6,7 +6,7 @@ import "../../styles/form.css"
 export function Contacto() {
     return (
       <div>
-       
+       git add <div className=""></div>
         <h2>QUIENES SOMOS	</h2>	
                   									
 																						
@@ -20,10 +20,8 @@ export function Contacto() {
      <div className='form'>
       <Form>
 
-      
 
-
-        <br />
+        <br /> <br /> <br /> <br />
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Correo electrónico</Form.Label>
         <Form.Control type="email" placeholder="Email" />

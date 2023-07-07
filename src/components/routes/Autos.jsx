@@ -1,8 +1,7 @@
 import "../../styles/nuevos.css"
-import { Link } from "react-router-dom";  
 import { AutosCard } from "./AutosCard";
 
-const autos = {}
+export const autos = {}
 
 autos.importados = [
   {marca: "ALFA ROMEO", img: "alfa"},

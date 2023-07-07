@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Swal from "sweetalert2";
+import {autos} from './Autos'
 import "../../styles/body.css"
 
 const Alerta = () => {
@@ -15,6 +16,13 @@ const Alerta = () => {
 }
 
 export function Financiacion() {
+  const autosTodos = [ ...autos.nacionales , ...autos.importados ]
+  console.log(autosTodos)
+  // console.log(autos)
+  // console.log(autos.nacionales)
+  // console.log(autos.importados)
+  // console.log( [ ...autos.nacionales , ...autos.importados ] )
+  // console.log( [ ...autos.nacionales , ...autos.importados ].map((auto) => {return "a"}) )
     return (
 
       <Form className="container position-relative">
@@ -45,18 +53,14 @@ export function Financiacion() {
             <Form.Group className="mb-3 col-md-4" controlId="exampleForm.ControlTextarea1">
               <Form.Label>Marca</Form.Label>
               <Form.Select defaultValue="Seleccione...">
-                <option>Seleccione...</option>
-                <option>Chevrolet</option>
-                <option>Citroen</option>
-                <option>Nissan</option>
-                <option>Peugeot</option>
-                <option>Renault</option>
-                <option>Toyoyta</option>
-                <option>Volkswagen</option>
+                <option disabled>Seleccione...</option>
+
+                { autosTodos.map((auto) => <option>{auto.marca}</option> )}
+
               </Form.Select>
             </Form.Group>
 
-            <div class="botones mx-auto">
+            <div className="botones mx-auto">
               <Button className="boton-enviar" onClick={Alerta} /*type="submit"*/>Enviar</Button>
             </div>
       </div>

@@ -53,8 +53,8 @@ export function Service() {
 
           <Form.Group as={Col} controlId="formGridState">
             <Form.Label>Turno</Form.Label>
-            <Form.Select defaultValue="Choose...">
-              <option>Seleccione...</option>
+            <Form.Select defaultValue="Seleccione...">
+              <option  disabled>Seleccione...</option>
               <option>10 a 12 hs</option>
               <option>12 a 14 hs</option>
               <option>14 a 16 hs</option>

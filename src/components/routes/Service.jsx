@@ -21,7 +21,7 @@ export function Service() {
     return (
       <Form className="body container">
 
-        <h2>Service post venta</h2>	
+        <h2>Service</h2>	
       
         <Row className="mb-3" with >
           <Form.Group as={Col} controlId="formGridEmail">
@@ -52,24 +52,19 @@ export function Service() {
           </Form.Group>
 
           <Form.Group as={Col} controlId="formGridState">
-            <Form.Label>Provincia</Form.Label>
-            <Form.Select defaultValue="Choose...">
-              <option>Seleccione...</option>
-              <option>...</option>
-            </Form.Select>
-          </Form.Group>
-
-          <Form.Group as={Col} controlId="formGridState">
             <Form.Label>Turno</Form.Label>
             <Form.Select defaultValue="Choose...">
               <option>Seleccione...</option>
-              <option>...</option>
+              <option>10 a 12 hs</option>
+              <option>12 a 14 hs</option>
+              <option>14 a 16 hs</option>
+              <option>16 a 18 hs</option>
             </Form.Select>
           </Form.Group>
         </Row>
 
         <Form.Group className="mb-3" id="formGridCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
+          <Form.Check type="checkbox" label="Compré en Cars Seven" />
         </Form.Group>
 
         <div className="botones mx-auto">

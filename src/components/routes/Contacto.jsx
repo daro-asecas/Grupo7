@@ -43,7 +43,7 @@ export function Contacto() {
         <br />
 
         <div className="botones mx-auto">
-          <Button className='boton-enviar' onClick={Alerta}  variant="primary" /*type="submit"*/>Enviar</Button>
+          <Button className="boton-enviar" onClick={Alerta}  variant="primary" /*type="submit"*/>Enviar</Button>
         </div>
 
         </Form.Group>

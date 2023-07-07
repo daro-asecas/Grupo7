@@ -18,49 +18,47 @@ export function Financiacion() {
     return (
 
       <Form className="container position-relative">
-      <h2>FINANCIACION</h2> 
+      <h2>Financiación</h2> 
       <img className="mx-auto img-fluid" src={"/financiacion.jpg"} />
       <br />
 
       <div className="container">
-              <h2>Datos Personales</h2>
               <br />       									
               <Form.Group className="mb-3 col-md-4" controlId="formBasicEmail">
-                <Form.Label>Nombre y apellido</Form.Label>
-                <Form.Control type="email" />
+                <Form.Label>Nombre y Apellido</Form.Label>
+                <Form.Control type="email" placeholder="Nombre y Apellido" />
                 <Form.Text className="text-muted"></Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3 col-md-4" controlId="formBasicEmail">
-                <Form.Label>Correo electrónico:</Form.Label>
-                <Form.Control type="email" />
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" placeholder="Email" />
                 <Form.Text className="text-muted"></Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3 col-md-4" controlId="formBasicEmail">
                 <Form.Label>Teléfono</Form.Label>
-                <Form.Control type="email" />
+                <Form.Control type="email" placeholder="Teléfono" />
                 <Form.Text className="text-muted"></Form.Text>
               </Form.Group>
 
             <Form.Group className="mb-3 col-md-4" controlId="exampleForm.ControlTextarea1">
-              <Form.Label>Seleccione:</Form.Label>
-              <Form.Select defaultValue="Choose...">
-              <option>Seleccione...</option>
-              <option>Chevrolet</option>
-              <option>Citroen</option>
-              <option>Nissan</option>
-              <option>Peugeot</option>
-              <option>Renault</option>
-              <option>Toyoyta</option>
-              <option>Volkswagen</option>
+              <Form.Label>Marca</Form.Label>
+              <Form.Select defaultValue="Seleccione...">
+                <option>Seleccione...</option>
+                <option>Chevrolet</option>
+                <option>Citroen</option>
+                <option>Nissan</option>
+                <option>Peugeot</option>
+                <option>Renault</option>
+                <option>Toyoyta</option>
+                <option>Volkswagen</option>
               </Form.Select>
             </Form.Group>
-              
-            <Button className="mx-auto" onClick={Alerta} /*type="submit"*/>Enviar</Button>
-            <br />
-            <br />
-            <Button className="mx-auto" /*type="submit"*/>Volver</Button>
+
+            <div class="botones mx-auto">
+              <Button className="boton-enviar" onClick={Alerta} /*type="submit"*/>Enviar</Button>
+            </div>
       </div>
       
       <br />

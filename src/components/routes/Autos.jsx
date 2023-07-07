@@ -47,7 +47,7 @@ function Autos (nacionalidad) {
         {autos[nacionalidad].map((auto) =>
           <AutosCard  
             marca={auto.marca} 
-            img={auto.img + ".png"}
+            img={`/${nacionalidad}/${auto.img}.png`}
           />
         )}
 

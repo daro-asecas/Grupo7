@@ -71,8 +71,7 @@ export function FormRepuestos() {
       <br />
 
         <div className="botones">
-        <Button className="boton-enviar" onClick={Alerta} variant="primary">Buscar</Button>
-        <Button className="boton-volver" variant="primary" >Volver</Button>
+          <Button className="boton-enviar" onClick={Alerta} variant="primary">Buscar</Button>
         </div>
 
 

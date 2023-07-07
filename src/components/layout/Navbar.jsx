@@ -5,11 +5,12 @@ import "../../styles/header.css"
 export function Navbar() {
 
   const buttons = [
-    {key: "nuevos", name:"0 km Nacionales"},
-    {key: "usados", name:"0 km Importados"},
-    {key: "vende", name:"Repuestos"},
-    {key: "servicios", name:"Service Post-Venta"},
-    {key: "nosotros", name:"Puntos de Venta"},
+    {key: "nosotros", name:"Nosotros"},
+    {key: "nacionales", name:"0 km Nacionales"},
+    {key: "importados", name:"0 km Importados"},
+    {key: "repuestos", name:"Repuestos"},
+    {key: "service", name:"Service Post-Venta"},
+    {key: "puntosdeventa", name:"Puntos de Venta"},
     {key: "contacto", name:"Contactanos"},
   ]
 
@@ -24,7 +25,7 @@ export function Navbar() {
   return (
     <header>
       <a href="/">
-        <img id= "logo" src={"/logo.jpeg"} />
+        <img id= "logo" src={"/logoChico.png"} />
       </a>
       <div id= "navbar">
         {buttons.map(button=>{

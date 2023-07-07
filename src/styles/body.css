@@ -1,0 +1,30 @@
+h2 {
+    font-size: 3rem;
+}
+
+.body {
+    padding: 5rem;
+}
+
+.container > * {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.form-label {
+    font-size: 1.5rem;
+}
+
+.botones{
+    display: flex;
+    align-content: right;
+}
+
+.boton-enviar{
+    margin-right: 0;       
+    margin-left: auto;       
+}

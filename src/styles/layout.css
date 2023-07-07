@@ -1,9 +1,19 @@
+body {
+  margin-top: 4rem;
+  height: 80vh;
+}
+
 #root {
   margin-inline: auto;
   /* max-width: 1000px; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
+  flex-grow: 0;
+  flex-shrink: 0;
   height: 4rem;
   width: 100%;
   position: fixed;
@@ -11,8 +21,12 @@ header {
   left: 0;
 }
 
-body {
-  margin-top: 4rem;
-  height: 80vh;
+footer {
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
+.body {
+  flex-grow: 1;
+  flex-shrink: 0;
+}

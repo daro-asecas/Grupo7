@@ -51,12 +51,12 @@ export function Footer() {
       <br />
 
          
-      <div className="derechos">
-        <br />
-        Grupo 7 © 2023
-        <br />
-        <br />
-      </div>
+        <div className="derechos">
+          <br />
+          Grupo 7 © 2023
+          <br />
+          <br />
+        </div>
 
       </footer>
       

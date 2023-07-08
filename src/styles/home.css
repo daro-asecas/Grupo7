@@ -43,6 +43,7 @@ body{
 }
 
 .cardHome{
+    color: black;
     padding: 2%;
     opacity: 0.8;
     /*box-shadow:

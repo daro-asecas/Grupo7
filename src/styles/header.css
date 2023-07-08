@@ -20,6 +20,8 @@ header {
   color: white;
   text-align:center;
   font-weight: bold;
+  text-shadow: -1px 0 #1696A3, 0 1px  #1696A3,
+	  1px 0 #1696A3, 0 -1px #1696A3;
 }
 
 #navbar {

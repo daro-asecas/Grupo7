@@ -36,7 +36,7 @@ export function Repuestos() {
 
             <CardVende 
                         categoria="FRENOS" 
-                        img="/repuestos/elect.png"/>
+                        img="/repuestos/frenos.png"/>
 
             <CardVende 
                         categoria="INYECCIÓN ELECTRONICA" 

@@ -8,7 +8,7 @@ export const CardDelHome = (props) => {
     <div className="cardHome">
         <h3>{props.titulo}</h3>
         <img className="imgHome" src={props.img} />
-        <p >{props.descripcion}</p>
+        <h5>{props.descripcion}</h5>
         <Link className="link" to={props.ruta}>{props.intro}</Link>
     </div> 
 

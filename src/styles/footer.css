@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Ubuntu:ital@1&display=swap');
 
 footer {
-  margin-top: .5em;
+  margin-top: 2em;
   font-family: 'Exo', sans-serif;
   width: 100%;
   background-color: hsl(198, 95%, 60%);

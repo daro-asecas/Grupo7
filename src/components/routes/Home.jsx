@@ -8,7 +8,7 @@ export const CardDelHome = (props) => {
     <div className="cardHome">
         <h3>{props.titulo}</h3>
         <img className="imgHome" src={props.img} />
-        <p >{props.descripcion}</p>
+        <h5>{props.descripcion}</h5>
         <Link className="link" to={props.ruta}>{props.intro}</Link>
     </div> 
 
@@ -20,7 +20,7 @@ export const CardDelHome = (props) => {
 export function Home() {
     return (
       <>   
-      <alerta />
+      
       <h1 className="titulo">Conseguí tu auto para vivir <br /> la acción sobre 4 ruedas</h1>
 
       <video src={"video.mp4"} min-width="100%" min-height="100%" autoplay="true" muted="true" loop="true"></video>

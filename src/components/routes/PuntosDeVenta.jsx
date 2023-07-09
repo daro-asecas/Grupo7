@@ -5,13 +5,13 @@ export function CardPuntosDeVenta(props) {
     return (
       <> 
       <div className="cardHome">
-          <h4>{props.ubicacion}</h4>
+          <h3>{props.ubicacion}</h3>
           <img className="imgHome" src={props.img} />
-            <p>
+            <h6>
                 {props.direccion} <br />
                 {props.Wsp} <br />
                 {props.mail}
-            </p>
+            </h6>
       </div>
       </>
     )

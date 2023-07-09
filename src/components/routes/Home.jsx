@@ -1,4 +1,4 @@
-import "../../styles/home.css"
+import "../../styles/home.css";
 import { Link } from "react-router-dom";
 
 export const CardDelHome = (props) => {
@@ -31,33 +31,35 @@ export function Home() {
 
         <CardDelHome 
                 titulo="NACIONALES 0KM" 
-                descripcion="LA MAYOR SELECCIÓN DE MODELOS DEL PAÍS EN UN SOLO LUGAR" 
-                img="/home/nac.jpg"
+                descripcion="TODOS LOS VEHÍCULOS DE TODAS LAS LÍNEAS FABRICADAS EN ARGENTINA,
+                LA MAYOR VARIEDAD DE MODELOS DEL PAÍS EN UN SOLO LUGAR."
+                img="/home/1.png"
                 ruta="/nacionales"
                 intro="Consigue tu 0km"
         />
 
         <CardDelHome 
                 titulo="IMPORTADOS 0KM" 
-                descripcion="LAS MEJORES MARCAS DEL MUNDO A SU ALCANCE" 
-                img="/home/1.png"
+                descripcion="LAS MEJORES MARCAS Y MODELOS DEL MUNDO A TU ALCANCE,
+                UNIDADES ÚNICAS DIRECTAMENTE DE SU PAÍS DE ORÍGEN."
+                img="/home/2.png"
                 ruta="/importados"
-                intro="Importados"
+                intro="Tu importado aquí"
         />
 
         <CardDelHome 
                 titulo="REPUESTOS Y ACCESORIOS" 
-                descripcion="REPUESTOS Y ACCESORIOS
-                PARA TODAS LAS LÍNEAS, NACIONALES E IMPORTADAS" 
+                descripcion="GRAN VARIEDAD DE REPUESTOS Y ACCESORIOS DE EXCELENCIA
+                PARA TODAS LAS LÍNEAS NACIONALES E IMPORTADAS"
                 img="/home/3.png"
                 ruta="/repuestos"
-                intro="Conseguir accesorios"
+                intro="Repuestos y accesorios a tu alcance"
         />
                 
         <CardDelHome 
                 titulo="SERVICE POST-VENTA" 
-                descripcion="CUMPLIMOS CON TODAS LAS NORMATIVAS MUNDIALES VIGENTES
-                Y CONTAMOS CON LA ÚLTIMA TECNOLOGÍA" 
+                descripcion="NUESTROS TALLERES CUENTAN CON LA MEJOR TECNOLOGÍA DE PUNTA INSTALADA,
+                CUMPLIENDO CON TODAS LAS NORMATIVAS MUNDIALES VIGENTES."
                 img="/home/4.png"
                 ruta="/service"
                 intro="Consultar"
@@ -65,7 +67,7 @@ export function Home() {
 
         <CardDelHome 
                 titulo="PUNTOS DE VENTA" 
-                descripcion="VARIOS PUNTOS DE VENTA EN EL PAÍS" 
+                descripcion="ESTAMOS EN VARIOS PUNTOS DEL PAÍS" 
                 img="/home/mapa.jpg"
                 ruta="/puntosdeventa"
                 intro="Ver"

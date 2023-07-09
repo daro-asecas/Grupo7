@@ -14,7 +14,7 @@ autos.importados = [
   {marca: "MERCEDES", img: "mercedes"},
   {marca: "MINI", img: "mini"},
   {marca: "PORSCHE", img: "porsche"},
-  {marca: "DODGE RAM", img: "ram"},
+  {marca: "RAM", img: "ram"},
   {marca: "VOLVO", img: "volvo"},
 ]
 

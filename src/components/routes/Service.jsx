@@ -21,7 +21,7 @@ export function Service() {
     return (
       <Form className="body container">
 
-        <h2>Service</h2>	
+        <h2>SERVICE / POST-VENTA</h2>	
       
         <Row className="mb-3" with >
           <Form.Group as={Col} controlId="formGridEmail">
@@ -55,10 +55,10 @@ export function Service() {
             <Form.Label>Turno</Form.Label>
             <Form.Select defaultValue="Seleccione...">
               <option  disabled>Seleccione...</option>
-              <option>10 a 12 hs</option>
-              <option>12 a 14 hs</option>
-              <option>14 a 16 hs</option>
-              <option>16 a 18 hs</option>
+              <option> 8 a 11 hs</option>
+              <option>11 a 14 hs</option>
+              <option>14 a 17 hs</option>
+              <option>17 a 20 hs</option>
             </Form.Select>
           </Form.Group>
         </Row>

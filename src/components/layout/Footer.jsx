@@ -8,35 +8,27 @@ export function Footer() {
             <img className="logo" src={"/logo.jpeg"} />
             <div>
                 <br/>
-                <h4>Enlaces de interés</h4>
+                <h4>ENLACES DE INTERÉS</h4>
                 <br/>
                 <a className="linksFooter" href="#" target="_blank">Empresa</a>
                 <br/>
-                <br/>
                 <a className="linksFooter" href="#" target="_blank">Preguntas frecuentes</a>
+                <br/>
+                <a className="linksFooter" href="#" target="_blank">Términos y condiciones</a>
+                <br/>
+                <a className="linksFooter" href="#" target="_blank">Política de privacidad</a>
+                
               </div>
 
               <div>
                   <br/>
-                  <h4>Equipo de Desarrollo</h4>
-                  <br/>
-                  <a className="linksFooter" href="#" target="_blank">Términos y condiciones</a>
-                  <br/>
-                  <br/>
-                  <a className="linksFooter" href="#" target="_blank">Política de privacidad</a>
-              </div>
-
-              <div>
-                  <br/>
-                  <h4>Contactate con nosotros</h4>
-                  <br/>
-                  <a className="linksFooter" href="#" target="_blank">Cookies</a>
-                  <br/>
-                  <br/>
-                  <a className="linksFooter" href="#" target="_blank">Acceso empleados</a>
+                  <h4>EQUIPO DE DESARROLLO</h4>
+                  <p>Darío Ajzensztad</p>
+                  <p>Marcelo Baranowski</p>
+                  <p>Darío Levenson</p>
+                  <p>Juan Pablo Rodríguez</p>
               </div>
           </div>
-
       <div>
 
       <hr/>

@@ -18,7 +18,7 @@ export function Contacto() {
     return (
       <Form className="body container">
 
-        <h2>Contacto y consultas</h2>	
+        <h2>CONTACTO Y CONSULTAS</h2>	
 
         <Form.Group className="mb-3 col-md-4  mx-auto" controlId="formBasicEmail">
           <Form.Label>Email</Form.Label>
